@@ -1,0 +1,166 @@
+
+:root{
+	--color-Naranja: #EDB44D;
+	--color-azul: #00acb3;
+
+	--color-Fondo-Swape: #09090d;
+	--color-Fondo-Features-Get: #101117;
+	--color-Fondo-Features-2: #121520;
+	--color-Fondo-Redes: #151721;
+	--color-Fondo-Footer: #040406;
+
+	--color-Gris: #dbdce4;
+	--color-texto-footer: #373946;
+	--color-blanco: #f8f9fb;
+
+}
+body{
+	font-family: 'Hind', sans-serif;
+	font-size: 16px;
+	background-color: #f8f9fa;
+	color:  rgba(149, 157, 170, 0.726);
+	font-weight: 300;
+	line-height: 1.8 !important;
+}
+
+header{
+	color: var(--color-blanco);
+}
+
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.header-area.sticky{
+	background-color: #fff !important;
+}
+
+#intro{
+	background-color: var(--color-Fondo-Swape);
+	padding: 15%;
+}
+
+#intro h2{
+	color: var(--color-Naranja);
+}
+
+h1{
+	font-size: 50px;
+	font-weight: 800;
+	color: var(--color-blanco);
+}
+
+#intro p{
+	font-size: 16px;
+}
+
+#intro a{
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.eye{
+	position:absolute;	
+	top: -250%;
+	z-index: 1;
+  }
+  
+.heaven{
+	position:absolute;
+	right: -10%;
+	z-index: 1;
+}
+
+#Features{
+	text-align: center;
+	padding: 15%;
+	background-color: var(--color-Fondo-Features-Get);
+}
+
+i{
+	color: var(--color-Naranja);
+	font-size: 50px;
+}
+
+#Features article h1, p{
+	font-size: 16px;
+}
+
+.sub{
+	text-align: left;
+}
+
+#Features article i{
+	background-color: var(--color-Naranja);;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	color: var(--color-blanco);
+	font-size: 30px;
+	border-radius: 100%;
+	transition: all 0.3s ease-in-out;
+}
+
+#Features2{
+	padding: 15%;
+	background-color: var(--color-Fondo-Features-2);
+}
+
+#Features2 article h1, p{
+	font-size: 16px;
+}
+
+#Get{
+	text-align: center;
+	padding: 15%;
+	background-color: var(--color-Fondo-Features-Get);
+}
+
+#Get article h1, p{
+	font-size: 16px;
+	text-align: left;
+}
+
+.sub-t h1{
+	font-size: 40px;
+	color: var(--color-Naranja);
+}
+
+#Get article i{
+	font-size: 30px;
+}
+
+#Get article img{
+	width: 60%;
+}
+
+#swap{
+	background-image: url(../img/bg-features.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 10% 0;
+	text-align: center;
+}
+#swap h2{
+	font-size: 3em;
+	color: #fff;
+}
+
+#swap h3{
+	font-size: 1.5em;
+	color: var(--color-Naranja);
+}
+
+#swap img{
+	width: 300px;
+	height: 500px;
+	padding:0 5%;
+	margin: 0 5%;
+}
