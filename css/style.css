@@ -164,3 +164,78 @@ i{
 	padding:0 5%;
 	margin: 0 5%;
 }
+
+#swap2{
+	padding: 10% 0;
+	background-color: var(--color-Fondo-Features-2);
+	text-align: center;
+}
+
+#swap2 h2{
+	font-size: 3em;
+	color: var(--color-texto-footer);
+	padding: 2% 0;
+}
+
+#swap2 h4{
+	padding: 2% 0;
+	font-size: 0.7em;
+	color: var(--color-texto-footer);
+}
+#swap2 img{
+	border-radius: 50%;
+}
+
+#swap2 p{
+	font-size: 1em;
+	color: var(--color-texto-footer);
+}
+
+#download{
+	padding: 5% 0;
+	text-align: center;
+	background-color: var(--color-Fondo-Features-2);
+}
+
+#download .btn{
+	border-radius: 50px;
+	font-size: 0.8em;
+	padding: 2% 5%;
+
+}
+#download i{
+	font-size: 2em;
+	color: #fff;
+	margin: 0 5%;
+}
+
+#download h2{
+	font-size: 3em;
+	color: #fff;
+	padding: 5%;
+}
+
+#download h3{
+	font-size: 3em;
+	color: #fff;
+	padding: 5%;
+}
+
+#download .form-control{
+	border-radius: 50px;
+}
+
+#redes{
+	padding: 5% 0;
+	background-color: var(--color-Fondo-Redes);
+}
+
+#redes i{
+	color: #fff;
+}
+
+footer{
+	text-align: center;
+	padding: 5% 0;
+	background-color: var(--color-Fondo-Footer);
+}
